@@ -12,7 +12,7 @@ var title = {
       link: 'http://github.com/alexarroyoduque/peteypedia-spanish'
     },
     {
-      text: 'PETEYPEDIA Original (Accesible desde USA)',
+      text: 'PETEYPEDIA Original: Accesible desde USA',
       link: 'https://www.hbo.com/peteypedia'
     }
 
@@ -131,7 +131,7 @@ var panel7 =  {
   title: 'Contents:// Archivo 7',
   items: [
     {
-      text: 'MEMO: El Historia del Origen de Hermana Noche',
+      text: 'MEMO: La Historia del Origen de Hermana Noche',
       link: './src/documents/7/memo-sister-night.pdf'
     },
     {

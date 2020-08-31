@@ -46,7 +46,7 @@ export class WpMain extends LitElement {
 
       wp-panel {
         font-family: var(--theme-primary-font-family);
-        letter-spacing: .2rem;
+        letter-spacing: .15rem;
         --wp-panel-title-color: var(--theme-color-primary);
         --wp-panel-content-color: var(--theme-color-secondary);
         --wp-panel-background-color: var(--theme-color-dark);
