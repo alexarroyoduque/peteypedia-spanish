@@ -1,0 +1,80 @@
+import { LitElement, html, css } from 'lit-element';
+
+export class WpPanel extends LitElement {
+
+  static get properties() {
+    return {
+      title: { type: String },
+      level: { type: Number },
+      description: { type: String },
+      items: { type: Array }
+    };
+  }
+  constructor() {
+    super();
+
+    this.title = '';
+    this.level = 2;
+    this.description = '';
+    this.items = [];
+  }
+
+  static get styles() {
+    return css`
+      :host {
+        display: block;
+        border: .5rem solid var(--wp-panel-border-color);
+        border-radius: 1rem;
+        padding: 2rem;
+        background-color: var(--wp-panel-background-color);
+      }
+
+      h1, h2 {
+        font-size: 1.8rem;
+        color: var(--wp-panel-title-color);
+        margin: 0;
+      }
+
+      ul {
+        padding: 0;
+        margin-top: 1rem;
+      }
+
+      li, a {
+        color: var(--wp-panel-content-color);
+      }
+
+      li {
+        list-style: none;
+        font-size: 1.2rem;
+        margin-bottom: .9rem;
+      }
+
+      p {
+        color: var(--wp-panel-content-color);
+      } 
+
+    `;
+  }
+
+  render() {
+    return html`
+
+      <h1 ?hidden="${this.level !== 1}">${this.title}</h1>
+      <h2 ?hidden="${this.level === 1}">${this.title}</h2>
+      <p ?hidden="${this.description === 'undefined'}">${this.description}</p>
+      <ul ?hidden="${!this.items.length}">
+        ${this.items.map(item => html`
+          <li>
+            <a href="${item.link}" target="_blank">${item.text}</a>
+          </li>
+        `)}
+      </ul>
+
+    `;
+  }
+
+
+}
+
+customElements.define('wp-panel', WpPanel);

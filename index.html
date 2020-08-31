@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- Register service worker if supported. -->
+  <!--
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+  </script>
+  -->
+  
+  <!-- Load polyfills -->
+  <script 
+    src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"
+    defer>
+  </script> 
+
+  <!-- Load components via WebComponents.waitFor -->
+  <script type="module">
+    window.WebComponents = window.WebComponents || { 
+      waitFor(cb){ addEventListener('WebComponentsReady', cb) }
+    } 
+    WebComponents.waitFor(async () => { 
+      import('./src/wp-main.js');
+    });
+  </script>
+  
+  <meta name="description" content="Peteypedia de la serie WATCHMEN de HBO en español">
+  <meta name="theme-color" content="#000">
+  <title>Peteypedia Español</title>
+
+  <meta property="og:title" content="Peteypedia Español"/>
+  <meta property="og:description" content="Peteypedia de la serie WATCHMEN de HBO en español"/>
+  <meta property="og:image" content="/manifest/favicon.png">
+
+  <meta property="og:type" content="website">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="shortcut icon" href="/manifest/favicon.ico" type="image/x-icon">
+  <link href="/manifest/icon-144x144.png" sizes="144x144" rel="apple-touch-icon">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+</head>
+<style>
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #000;
+    display: block;
+    margin: 1rem 0 0 0;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    background-image: url('./src/images/map.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 1.8rem;
+  }
+
+  wp-main {
+    width: 90%;
+    max-width: 720px;
+  }
+
+</style>
+<body>
+
+
+  <div class="wrapper">
+    <wp-main>
+      <!-- Placeholders to improve time to first paint -->
+      <h1>Cargando...!</h1>
+  
+      <!-- Check for JavaScript -->
+      <p id="jsyes"></p>
+      <script type="text/javascript">
+        document.getElementById('jsyes').innerHTML='Cargando...';
+      </script>
+      <noscript>
+        Could not render the custom element. Check that JavaScript is enabled.
+      </noscript>
+    </wp-main>
+  </div>
+
+</body>

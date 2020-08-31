@@ -1,0 +1,22 @@
+{
+  "shell": "src/wp-main.js",
+  "entrypoint": "index.html",
+  "fragments": ["src/wp-panel.js"],
+  "npm": true,
+  "moduleResolution": "node",
+  "sources": ["src/wp-main.js", "src/documents/**", "src/images/**", "manifest/**", "manifest.json", "package.json"],
+  "extraDependencies": [
+    "robots.txt",
+    "node_modules/@webcomponents/webcomponentsjs/**"
+  ],
+  "builds": [{
+    "bundle": true,
+    "js": { 
+      "minify": true,
+      "compile": "es5",
+      "transformModulesToAmd": true
+    },
+    "addServiceWorker": false,
+    "addPushManifest": true
+  }]
+}
