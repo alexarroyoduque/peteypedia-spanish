@@ -30,8 +30,8 @@ export class WpMain extends LitElement {
     return css`
       :host {
         display: block;
-        --theme-primary-font-family: monospace;
-        --theme-secondary-font-family: monospace;
+        --theme-primary-font-family: 'Courier Prime', monospace;
+        --theme-secondary-font-family: 'Courier Prime', monospace;
 
         --theme-color-golden: #fbde00;
         --theme-color-light: #fff;
