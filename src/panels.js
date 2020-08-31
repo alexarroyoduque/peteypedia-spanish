@@ -9,7 +9,7 @@ var title = {
     },
     {
       text: 'GITHUB: Código Fuente',
-      link: 'http://github.com/alexarroyoduque/peteypedia'
+      link: 'http://github.com/alexarroyoduque/peteypedia-spanish'
     },
     {
       text: 'PETEYPEDIA Original',
