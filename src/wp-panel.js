@@ -46,8 +46,8 @@ export class WpPanel extends LitElement {
 
       li {
         list-style: none;
-        font-size: 1.2rem;
-        margin-bottom: .9rem;
+        font-size: 1.1rem;
+        margin-bottom: .8rem;
       }
 
       p {

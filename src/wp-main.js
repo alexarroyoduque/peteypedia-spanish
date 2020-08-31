@@ -51,7 +51,7 @@ export class WpMain extends LitElement {
         --wp-panel-content-color: var(--theme-color-secondary);
         --wp-panel-background-color: var(--theme-color-dark);
         --wp-panel-border-color: var(--theme-color-gray-dark);
-        margin: 2rem 0 2rem 0;
+        margin: 1.8rem 0 1.8rem 0;
       }
 
       footer {
