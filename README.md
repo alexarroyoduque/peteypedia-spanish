@@ -29,7 +29,7 @@ firebase deploy
 ## Credits
 > Developed by @AlexArroyoDuque
 
-> HBO original PETEPEDIA [https://www.hbo.com/peteypedia](https://www.hbo.com/peteypedia)
+> HBO original PETEYPEDIA [https://www.hbo.com/peteypedia](https://www.hbo.com/peteypedia)
 
 > Sample LitElement project [https://github.com/PolymerLabs/start-lit-element](https://github.com/PolymerLabs/start-lit-element)
 
