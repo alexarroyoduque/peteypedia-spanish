@@ -12,7 +12,7 @@ var title = {
       link: 'http://github.com/alexarroyoduque/peteypedia-spanish'
     },
     {
-      text: 'PETEYPEDIA Original',
+      text: 'PETEYPEDIA Original (Accesible desde USA)',
       link: 'https://www.hbo.com/peteypedia'
     }
 
