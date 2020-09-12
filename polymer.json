@@ -4,7 +4,7 @@
   "fragments": ["src/wp-panel.js"],
   "npm": true,
   "moduleResolution": "node",
-  "sources": ["src/wp-main.js", "src/documents/**", "src/images/**", "manifest/**", "manifest.json", "package.json"],
+  "sources": ["googlea4333fdd4ecee301.html", "src/wp-main.js", "src/documents/**", "src/images/**", "manifest/**", "manifest.json", "package.json"],
   "extraDependencies": [
     "robots.txt",
     "node_modules/@webcomponents/webcomponentsjs/**"
