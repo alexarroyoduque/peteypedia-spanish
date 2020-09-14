@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "The Polymer Authors",
-  "license": "BSD-3-Clause",
+  "author": "AlexArroyoDuque",
+  "license": "licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional",
   "dependencies": {
     "@webcomponents/webcomponentsjs": "latest",
     "lit-element": "latest"
