@@ -1,10 +1,12 @@
 # peteypedia-spanish
 
-Al final de cada capítulo del cómic original de WATCHMEN se incluyen documentos que enriquecen la obra y HBO con su serie creó la PETEYPEDIA haciendo algo similar. Sin embargo HBO no permite acceder a esta información fuera de USA. Aquí tenemos una representación aproximada de la PETEYPEDIA donde se pueden leer esos documentos en castellano. Si encuentra errores en la traducción o desea comentar alguna cosa no dude en ponerse en contacto conmigo.
+Al final de cada capítulo del cómic original de WATCHMEN se incluyen documentos que enriquecen la obra y HBO con su serie creó la PETEYPEDIA haciendo algo similar a través del Agente Dale Petey. HBO no permitía acceder a esta información fuera de EEUU y además el sitio dejó de estar disponible. Aquí tenemos una representación aproximada de la PETEYPEDIA donde se pueden leer esos documentos en castellano.
 
 [https://peteypedia-spanish.firebaseapp.com](https://peteypedia-spanish.firebaseapp.com)
 
 ## Quick start
+
+- Node 14
 
 ```
 npm install -g polymer-cli

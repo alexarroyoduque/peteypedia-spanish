@@ -34,5 +34,13 @@
     "src": "./manifest/icon-512x512.png",
     "sizes": "512x512",
     "type": "image/png"
+  }, {
+    "src": "./manifest/mstile-150x150.png",
+    "sizes": "150x150",
+    "type": "image/png"
+  }, {
+    "src": "./manifest/apple-touch-icon.png",
+    "sizes": "180x180",
+    "type": "image/png"
   }]
 }

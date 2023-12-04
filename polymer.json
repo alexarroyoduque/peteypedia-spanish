@@ -1,22 +1,30 @@
 {
-  "shell": "src/wp-main.js",
   "entrypoint": "index.html",
+  "shell": "src/wp-main.js",
   "fragments": ["src/wp-panel.js"],
   "npm": true,
   "moduleResolution": "node",
-  "sources": ["googlea4333fdd4ecee301.html", "src/wp-main.js", "src/documents/**", "src/images/**", "manifest/**", "manifest.json", "package.json"],
+  "sources": [
+    "googlea4333fdd4ecee301.html",
+    "src/**/*",
+    "manifest/**",
+    "manifest.json",
+    "package.json"
+  ],
   "extraDependencies": [
     "robots.txt",
     "node_modules/@webcomponents/webcomponentsjs/**"
   ],
-  "builds": [{
-    "bundle": true,
-    "js": { 
-      "minify": true,
-      "compile": "es5",
-      "transformModulesToAmd": true
-    },
-    "addServiceWorker": false,
-    "addPushManifest": true
-  }]
+  "builds": [
+    {
+      "bundle": true,
+      "js": {
+        "minify": true,
+        "compile": "es2015",
+        "module": true
+      },
+      "addServiceWorker": false,
+      "addPushManifest": true
+    }
+  ]
 }

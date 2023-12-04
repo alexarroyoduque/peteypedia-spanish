@@ -10,7 +10,10 @@
   "author": "AlexArroyoDuque",
   "license": "licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional",
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "latest",
-    "lit-element": "latest"
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "polymer-cli": "1.9.11"
   }
 }

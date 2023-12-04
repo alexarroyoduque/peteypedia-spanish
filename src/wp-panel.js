@@ -54,6 +54,15 @@ export class WpPanel extends LitElement {
         color: var(--wp-panel-content-color);
       } 
 
+      .item-description {
+        font-size: .8rem;
+        margin-top: 0.1rem;
+      }
+
+      .item-text {
+        margin: 0;
+      }
+
     `;
   }
 
@@ -66,7 +75,9 @@ export class WpPanel extends LitElement {
       <ul ?hidden="${!this.items.length}">
         ${this.items.map(item => html`
           <li>
-            <a href="${item.link}" target="_blank">${item.text}</a>
+            <a ?hidden=${!item.link} href="${item.link}" target="_blank">${item.text}</a>
+            <p class='item-text' ?hidden=${item.link}>${item.text}</p>
+            <p class='item-description' ?hidden=${!item.description}>${item.description}</p>
           </li>
         `)}
       </ul>

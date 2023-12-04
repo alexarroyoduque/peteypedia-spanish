@@ -2,3 +2,4 @@ node_modules
 build
 .DS_Store
 .firebase
+src/dist

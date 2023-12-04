@@ -1,7 +1,7 @@
-var title = {
+let title = {
   title: 'PETEYPEDIA EN ESPAÑOL',
   level: 1, 
-  description: 'Al final de cada capítulo del cómic original de WATCHMEN se incluyen documentos que enriquecen la obra y HBO con su serie creó la PETEYPEDIA haciendo algo similar. Sin embargo HBO no permite acceder a esta información fuera de USA. Aquí tenemos una representación aproximada de la PETEYPEDIA donde se pueden leer esos documentos en castellano. Si encuentra errores en la traducción o desea comentar alguna cosa no dude en ponerse en contacto conmigo.',
+  description: 'Al final de cada capítulo del cómic original de WATCHMEN se incluyen documentos que enriquecen la obra y HBO con su serie creó la PETEYPEDIA haciendo algo similar a través del Agente Dale Petey. HBO no permitía acceder a esta información fuera de EEUU y además el sitio dejó de estar disponible. Aquí tenemos una representación aproximada de la PETEYPEDIA donde se pueden leer esos documentos en castellano.',
   items: [
     {
       text: 'TWITTER: @AlexArroyoDuque',
@@ -12,14 +12,14 @@ var title = {
       link: 'http://github.com/alexarroyoduque/peteypedia-spanish'
     },
     {
-      text: 'PETEYPEDIA Original: Accesible desde USA',
-      link: 'https://www.hbo.com/peteypedia'
+      text: 'PETEYPEDIA original gDocs by Spino-Prime: english',
+      link: 'https://docs.google.com/document/d/1ao307Kz_vUPLPO2hD_AjnxNUxQvQ5C6tr5ix-55U1c0/edit'
     }
 
   ]
 };
 
-var panel1 =  {
+let panel1 =  {
   title: 'Contents:// Archivo 1',
   items: [
     {
@@ -41,7 +41,7 @@ var panel1 =  {
   ]
 };
 
-var panel2 =  {
+let panel2 =  {
   title: 'Contents:// Archivo 2',
   items: [
     {
@@ -59,7 +59,7 @@ var panel2 =  {
   ]
 };
 
-var panel3 =  {
+let panel3 =  {
   title: 'Contents:// Archivo 3',
   items: [
     {
@@ -77,7 +77,7 @@ var panel3 =  {
   ]
 };
 
-var panel4 =  {
+let panel4 =  {
   title: 'Contents:// Archivo 4',
   items: [
     {
@@ -91,7 +91,7 @@ var panel4 =  {
   ]
 };
 
-var panel5 =  {
+let panel5 =  {
   title: 'Contents:// Archivo 5',
   items: [
     {
@@ -109,7 +109,7 @@ var panel5 =  {
   ]
 };
 
-var panel6 =  {
+let panel6 =  {
   title: 'Contents:// Archivo 6',
   items: [
     {
@@ -127,7 +127,7 @@ var panel6 =  {
   ]
 };
 
-var panel7 =  {
+let panel7 =  {
   title: 'Contents:// Archivo 7',
   items: [
     {
@@ -141,7 +141,7 @@ var panel7 =  {
   ]
 };
 
-var panel8 =  {
+let panel8 =  {
   title: 'Contents:// Archivo 8',
   items: [
     {
@@ -155,7 +155,7 @@ var panel8 =  {
   ]
 };
 
-var panel9 =  {
+let panel9 =  {
   title: 'Contents:// Archivo 9',
   items: [
     {
@@ -165,7 +165,43 @@ var panel9 =  {
   ]
 };
 
-var panels = [
+let panelBonus =  {
+  title: 'Contents:// Bonus',
+  description: 'Más contenido de interés fuera la serie Watchmen de HBO que enriquecen su universo.',
+  items: [
+    {
+      text: 'La Estirpe de los libres: American History X',
+      description: 'Monográfico de Iker Jiménez repasando el conflicto racial en EEUU durante la historia. No hay referencias a Tulsa pero sí al KKK con mucha información interesante.',
+      link: 'https://www.youtube.com/live/GMS_chrz0jE?si=WJC7aeDUFrNUnsr3'
+    },
+    {
+      text: 'Podcast: La órbita de Endor',
+      description: 'Cuatro entregas que analizan detalladamente el cómic original de Watchmen, la serie de HBO, y otros productos como la película, "Antes de Watchmen", "El reloj del juicio final"...',
+      link: 'http://laorbitadeendor.com/2020/03/02/lode-10x25-watchmen-parte-1-de-4/'
+    },
+    {
+      text: 'Entrevista 2020: Damon Lindelof',
+      description: 'Entrevista al creador de la serie de HBO.',
+      link: 'https://youtu.be/VprFp7jl0Tw?si=wRjPQTR28LQAffPY&t=1242'
+    },
+    {
+      text: 'Más allá del límite: los arquitectos del miedo',
+      description: 'Emitido el 30 de septiembre de 1963, existen similitudes evidentes con la obra original de Watchmen.',
+      link: 'https://www.dailymotion.com/video/x24fcuc'
+    },
+    {
+      text: 'HBO Backstories: "Watchmen"',
+      description: 'Corto donde Damon Lindelof (creador de la serie) explica como descubrió el cómic original.',
+      link: 'https://youtu.be/PLx2QAXRDaE?si=PZGzFvIUgRHhklSL'
+    },
+    {
+      text: 'American Crime Story: El pueblo contra OJ Simpson',
+      description: 'Serie recomendada para conocer a Johnnie Cochran referenciado en el recorte del New Frontiersman (Archivo 3). Este abogado forma parte de uno de los episodios más escandalosos de EEUU donde la deuda racial acumulada es protagonista en el juicio a OJ.',
+    },
+  ]
+};
+
+let panels = [
   title,
   panel1,
   panel2,
@@ -176,6 +212,7 @@ var panels = [
   panel7,
   panel8,
   panel9,
+  panelBonus
 ];
 
 export function getPanels() {
