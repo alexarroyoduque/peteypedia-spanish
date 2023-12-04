@@ -25,7 +25,7 @@ export class WpPanel extends LitElement {
         display: block;
         border: .5rem solid var(--wp-panel-border-color);
         border-radius: 1rem;
-        padding: 2rem;
+        padding: 2rem 2rem 1.2rem 2rem;
         background-color: var(--wp-panel-background-color);
       }
 
@@ -50,6 +50,11 @@ export class WpPanel extends LitElement {
         margin-bottom: .8rem;
       }
 
+      a {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
       p {
         color: var(--wp-panel-content-color);
       } 
@@ -66,6 +71,16 @@ export class WpPanel extends LitElement {
     `;
   }
 
+  fireEvent(eventName, eventDetail) {
+    const customEvent = new CustomEvent(eventName, {
+      detail: eventDetail,
+      bubbles: true,
+      composed: true,
+    });
+
+    this.dispatchEvent(customEvent);
+  }
+
   render() {
     return html`
 
@@ -76,8 +91,9 @@ export class WpPanel extends LitElement {
         ${this.items.map(item => html`
           <li>
             <a ?hidden=${!item.link} href="${item.link}" target="_blank">${item.text}</a>
-            <p class='item-text' ?hidden=${item.link}>${item.text}</p>
+            <p class='item-text' ?hidden=${item.link || item.event}>${item.text}</p>
             <p class='item-description' ?hidden=${!item.description}>${item.description}</p>
+            <a role="button" ?hidden=${!item.event} @click=${()=> this.fireEvent(item.event, item.detail)}>${item.text}</a>
           </li>
         `)}
       </ul>

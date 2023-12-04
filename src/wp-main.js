@@ -10,20 +10,36 @@
 
 
 import { LitElement, html, css } from 'lit-element';
-import {getPanels} from './panels.js';
+import {getPanelsSpanish} from './panels-spanish.js';
+import {getPanelsEnglish} from './panels-english.js';
 import('./wp-panel.js')
 
 
 export class WpMain extends LitElement {
   static get properties() {
     return {
-      panels: { type: Array }
+      panelsSpanish: { type: Array },
+      panelsEnglish: { type: Array },
+      panelsSelected: { type: Array }
     };
   }
 
   constructor() {
     super();
-    this.panels = getPanels();
+    this.panelsSpanish = getPanelsSpanish();
+    this.panelsEnglish = getPanelsEnglish();
+    this.panelsSelected = [...this.panelsSpanish];
+
+    this.addEventListener('change-language', (ev) => {
+      if (ev.detail === 'spanish') {
+        this.panelsSelected = [...this.panelsSpanish];
+        document.documentElement.lang = 'es';
+      } else if (ev.detail === 'english') {
+        this.panelsSelected = [...this.panelsEnglish];
+        document.documentElement.lang = 'en';
+      }
+    });
+
   }
 
   static get styles() {
@@ -74,7 +90,7 @@ export class WpMain extends LitElement {
     return html`
 
       <section>
-        ${this.panels.map(panel => html`
+        ${this.panelsSelected.map(panel => html`
           <wp-panel role="article"
             title="${panel.title}"
             level="${panel.level}"
