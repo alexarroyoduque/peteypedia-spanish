@@ -166,6 +166,31 @@ let panel9 =  {
   ]
 };
 
+let panelExtra =  {
+  title: 'Contents:// Extra',
+  description: 'Se lanzaron al mercado productos para promocionar la serie simulando formar parte del universo Watchmen. Agradecimientos al usuario de reddit spino-prime por esta recopilación.',
+  items: [
+    {
+      text: 'Volumen 1: The Book of Rorschach de Sons of Pale Hors',
+      description: 'Se lanzaron 3 vinilos con la banda sonora de Trent Reznor y Atticus Ross de la serie de HBO, pero aparentando ser discos del universo Watchmen con información muy interesante.',
+      link: './src/documents/spanish/extra/volume1.pdf'
+    },
+    {
+      text: 'Volumen 2: Banda sonora original de la serie American Hero Story: Minutemen',
+      link: './src/documents/spanish/extra/volume2.pdf'
+    },
+    {
+      text: 'Volumen 3: El proyecto Manhattan de The Nine Inch Nails',
+      link: './src/documents/spanish/extra/volume3.pdf'
+    },
+    {
+      text: 'Blue Sunday',
+      description: 'Blue Sunday es un material irradiado que proviene del suelo donde el Dr. Manhattan hizo desaparecer el Castillo de Cartwithen en Gwynedd, en el norte de Gales. Fue creado como una broma para ser "comprado" en la web de Nine Inch Nails. Al añadirlo al carrito se mostraba un mensaje indicando que no está disponible debido a regulaciones de FDTA. Quienes consiguieron comprarlo recibieron contenido muy curioso.',
+      link: './src/documents/spanish/extra/blue-sunday.pdf'
+    }
+  ]
+};
+
 let panelBonus =  {
   title: 'Contents:// Bonus',
   description: 'Más contenido de interés fuera la serie Watchmen de HBO que enriquecen su universo.',
@@ -213,6 +238,7 @@ let panels = [
   panel7,
   panel8,
   panel9,
+  panelExtra,
   panelBonus
 ];
 

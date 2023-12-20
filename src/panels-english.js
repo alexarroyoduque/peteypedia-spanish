@@ -165,6 +165,31 @@ let panel9 =  {
   ]
 };
 
+let panelExtra =  {
+  title: 'Contents:// Extra',
+  description: 'Some products were released to promote the HBO series, simulating being part of the Watchmen universe. Thanks to Reddit user spino-prime for this compilation.',
+  items: [
+    {
+      text: 'Vol. 1: The Book of Rorschach de Sons of Pale Hors',
+      description: 'Three vinyl records were released featuring the soundtrack by Trent Reznor and Atticus Ross from the HBO series, but pretending to be records from the Watchmen universe with very interesting information.',
+      link: './src/documents/spanish/extra/volume1.pdf'
+    },
+    {
+      text: 'Vol. 2: The original soundrack of American Hero Story: Minutemen',
+      link: './src/documents/spanish/extra/volume2.pdf'
+    },
+    {
+      text: 'Vol. 3: The Manhattan Project of The Nine Inch Nails',
+      link: './src/documents/spanish/extra/volume3.pdf'
+    },
+    {
+      text: 'Blue Sunday',
+      description: 'Blue Sunday is irradiated material that comes from the ground where Dr. Manhattan made Cartwithen Castle disappear in Gwynedd, North Wales. It was created as a joke to be "purchased" on the Nine Inch Nails website. When added to the cart, a message appeared indicating that it´s not available due to FDTA regulations. Those who managed to buy it received very curious content.',
+      link: './src/documents/spanish/extra/blue-sunday.pdf'
+    }
+  ]
+};
+
 let panels = [
   title,
   panel1,
@@ -175,7 +200,8 @@ let panels = [
   panel6,
   panel7,
   panel8,
-  panel9
+  panel9,
+  panelExtra
 ];
 
 export function getPanelsEnglish() {
