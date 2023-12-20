@@ -171,7 +171,7 @@ let panelExtra =  {
   description: 'Se lanzaron al mercado productos para promocionar la serie simulando formar parte del universo Watchmen. Agradecimientos al usuario de reddit spino-prime por esta recopilación.',
   items: [
     {
-      text: 'Volumen 1: The Book of Rorschach de Sons of Pale Hors',
+      text: 'Volumen 1: The Book of Rorschach de Sons of Pale Horse',
       description: 'Se lanzaron 3 vinilos con la banda sonora de Trent Reznor y Atticus Ross de la serie de HBO, pero aparentando ser discos del universo Watchmen con información muy interesante.',
       link: './src/documents/spanish/extra/volume1.pdf'
     },
