@@ -201,8 +201,13 @@ let panelBonus =  {
       link: 'https://www.youtube.com/live/GMS_chrz0jE?si=WJC7aeDUFrNUnsr3'
     },
     {
-      text: 'Podcast: La órbita de Endor',
+      text: 'Podcast La órbita de Endor: WATCHMEN',
       description: 'Cuatro entregas que analizan detalladamente el cómic original de Watchmen, la serie de HBO, y otros productos como la película, "Antes de Watchmen", "El reloj del juicio final"...',
+      link: 'http://laorbitadeendor.com/2020/03/02/lode-10x25-watchmen-parte-1-de-4/'
+    },
+    {
+      text: 'Podcast Tomos y Grapas: RORSCHACH (2023)',
+      description: 'Análisis de los 12 números iniciados en 2021 por Tom King con Jorge Fornés como dibujante.',
       link: 'http://laorbitadeendor.com/2020/03/02/lode-10x25-watchmen-parte-1-de-4/'
     },
     {
@@ -211,7 +216,7 @@ let panelBonus =  {
       link: 'https://youtu.be/VprFp7jl0Tw?si=tI7i5weeZwXFuQM6'
     },
     {
-      text: 'Podcast oficial HBO: Watchmen (inglés)',
+      text: 'Podcast oficial HBO: WATCHMEN (inglés)',
       link: 'https://youtu.be/n_4QhT--ebQ?si=ccl4qbKGutmhV6wn'
     },
     {
@@ -220,7 +225,7 @@ let panelBonus =  {
       link: 'https://www.dailymotion.com/video/x24fcuc'
     },
     {
-      text: 'HBO Backstories: "Watchmen"',
+      text: 'HBO Backstories: "WATCHMEN"',
       description: 'Corto donde Damon Lindelof (creador de la serie) explica como descubrió el cómic original.',
       link: 'https://youtu.be/PLx2QAXRDaE?si=PZGzFvIUgRHhklSL'
     },

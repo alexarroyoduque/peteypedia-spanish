@@ -206,11 +206,11 @@ let panelBonus =  {
     },
     {
       text: 'Interview 2020: Damon Lindelof',
-      description: 'Interview with the creator of the HBO series',
+      description: 'Interview with the creator of the HBO series.',
       link: 'https://youtu.be/VprFp7jl0Tw?si=tI7i5weeZwXFuQM6'
     },
     {
-      text: 'Official podcast HBO: Watchmen',
+      text: 'Official podcast HBO: WATCHMEN',
       link: 'https://youtu.be/n_4QhT--ebQ?si=ccl4qbKGutmhV6wn'
     },
     {
@@ -219,7 +219,7 @@ let panelBonus =  {
       link: 'https://www.dailymotion.com/video/x24fcuc'
     },
     {
-      text: 'HBO Backstories: "Watchmen"',
+      text: 'HBO Backstories: "WATCHMEN"',
       description: 'Short film where Damon Lindelof (series creator) explains how he discovered the original comic.',
       link: 'https://youtu.be/PLx2QAXRDaE?si=PZGzFvIUgRHhklSL'
     },
