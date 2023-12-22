@@ -190,6 +190,46 @@ let panelExtra =  {
   ]
 };
 
+let panelBonus =  {
+  title: 'Contents:// Bonus',
+  description: 'Additional compelling content beyond HBO´s Watchmen series that enhances its universe.',
+  items: [
+    {
+      text: 'La Estirpe de los libres: American History X (spanish)',
+      description: 'Iker Jiménez´s special report delves into the history of racial conflict in the United States. While Tulsa is not specifically referenced, there is substantial and intriguing information regarding the KKK.',
+      link: 'https://www.youtube.com/live/GMS_chrz0jE?si=WJC7aeDUFrNUnsr3'
+    },
+    {
+      text: 'Podcast: La órbita de Endor (spanish)',
+      description: 'Four podcasts that thoroughly analyze the original Watchmen comic, the HBO series, and other related works such as the movie, "Before Watchmen," and "The Doomsday Clock."',
+      link: 'http://laorbitadeendor.com/2020/03/02/lode-10x25-watchmen-parte-1-de-4/'
+    },
+    {
+      text: 'Interview 2020: Damon Lindelof',
+      description: 'Interview with the creator of the HBO series',
+      link: 'https://youtu.be/VprFp7jl0Tw?si=tI7i5weeZwXFuQM6'
+    },
+    {
+      text: 'Official podcast HBO: Watchmen',
+      link: 'https://youtu.be/n_4QhT--ebQ?si=ccl4qbKGutmhV6wn'
+    },
+    {
+      text: 'The Outer limits: The Architects of Fear',
+      description: 'Broadcast on September 30, 1963, there are unmistakable parallels with the original work of Watchmen.',
+      link: 'https://www.dailymotion.com/video/x24fcuc'
+    },
+    {
+      text: 'HBO Backstories: "Watchmen"',
+      description: 'Short film where Damon Lindelof (series creator) explains how he discovered the original comic.',
+      link: 'https://youtu.be/PLx2QAXRDaE?si=PZGzFvIUgRHhklSL'
+    },
+    {
+      text: 'American Crime Story: The People v. O.J. Simpson',
+      description: 'Recommended series to know about Johnnie Cochran, referenced in the New Frontiersman clipping (File 3). This lawyer is involved in one of the most scandalous episodes in the U.S., where accumulated racial tension takes center stage in the OJ trial.',
+    }
+  ]
+};
+
 let panels = [
   title,
   panel1,
@@ -201,7 +241,8 @@ let panels = [
   panel7,
   panel8,
   panel9,
-  panelExtra
+  panelExtra,
+  panelBonus
 ];
 
 export function getPanelsEnglish() {

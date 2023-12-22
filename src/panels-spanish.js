@@ -208,7 +208,11 @@ let panelBonus =  {
     {
       text: 'Entrevista 2020: Damon Lindelof',
       description: 'Entrevista al creador de la serie de HBO.',
-      link: 'https://youtu.be/VprFp7jl0Tw?si=wRjPQTR28LQAffPY&t=1242'
+      link: 'https://youtu.be/VprFp7jl0Tw?si=tI7i5weeZwXFuQM6'
+    },
+    {
+      text: 'Podcast oficial HBO: Watchmen (inglés)',
+      link: 'https://youtu.be/n_4QhT--ebQ?si=ccl4qbKGutmhV6wn'
     },
     {
       text: 'Más allá del límite: los arquitectos del miedo',
@@ -223,7 +227,7 @@ let panelBonus =  {
     {
       text: 'American Crime Story: El pueblo contra OJ Simpson',
       description: 'Serie recomendada para conocer a Johnnie Cochran referenciado en el recorte del New Frontiersman (Archivo 3). Este abogado forma parte de uno de los episodios más escandalosos de EEUU donde la deuda racial acumulada es protagonista en el juicio a OJ.',
-    },
+    }
   ]
 };
 
