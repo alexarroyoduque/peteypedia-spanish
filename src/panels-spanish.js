@@ -206,9 +206,9 @@ let panelBonus =  {
       link: 'http://laorbitadeendor.com/2020/03/02/lode-10x25-watchmen-parte-1-de-4/'
     },
     {
-      text: 'Podcast Tomos y Grapas: RORSCHACH (2023)',
+      text: 'MASTERCLASS de MundoSkrull con Jorge Fornés: Rorschach (16 de marzo 2022)',
       description: 'Análisis de los 12 números iniciados en 2021 por Tom King con Jorge Fornés como dibujante.',
-      link: 'https://youtu.be/GdOiGAsH5xg?si=emwsWN9XSP9di6UG'
+      link: 'https://youtu.be/HYbGoT69-4U?si=WOAnHMhTDpWmr9W1'
     },
     {
       text: 'Entrevista 2020: Damon Lindelof',
