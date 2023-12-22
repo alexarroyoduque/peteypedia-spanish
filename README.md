@@ -24,6 +24,7 @@ polymer serve build/default
 ```
 
 ```
+npm install -g firebase-tools@11
 firebase deploy
 ```
 
