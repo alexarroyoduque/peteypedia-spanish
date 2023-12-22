@@ -208,7 +208,7 @@ let panelBonus =  {
     {
       text: 'Podcast Tomos y Grapas: RORSCHACH (2023)',
       description: 'Análisis de los 12 números iniciados en 2021 por Tom King con Jorge Fornés como dibujante.',
-      link: 'http://laorbitadeendor.com/2020/03/02/lode-10x25-watchmen-parte-1-de-4/'
+      link: 'https://youtu.be/GdOiGAsH5xg?si=emwsWN9XSP9di6UG'
     },
     {
       text: 'Entrevista 2020: Damon Lindelof',
